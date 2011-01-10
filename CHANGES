@@ -1,0 +1,52 @@
+/*
+ * CHANGES  - Change log for the current release
+ *
+ * $Id: CHANGES 33 2010-05-10 02:46:01Z openglx $
+ */
+
+  - Fixed issue #27, SVSINFO message always send 0 as peak user count [openglx, 03/Mar/2010]
+  - Fixed issue #23, exclude channel register limit for sadmin/soper [thales, 3/Mar/2010] 
+  - Fixed issue #34, memoserv read command only accept numbers. Added NEW/ALL
+      feature [openglx, 01/Mar/2010]
+  - Fixed issue #30, SSET founder on logchannel [thales, 28/Feb/2010] 
+  - Fixed issue #21, current user count increases also with stealth user [thales, 28/Feb/2010]
+  - Refixed issue #31, working for all Services' pseudo-users now [openglx, 28/Feb/2010]
+  - Fixed issue #31, CTCP PING from user to services isn't correctly interpreted [openglx, 15/Dec/2009]
+  - Fixed issue #16, nickserv handling modes on services.log [openglx, 12/Sep/2009] 
+  - Fixed issue #8, IRCd agnostic
+  - Fixed issue #1, creating ev_cs_deop trigger and the "regain op on deop" funcionality
+  - Fixed issue #11, adding the notify option on/off for recieving new memo's  
+  - BUG #14 fixed, OS EXCEPTION LIST with null who_snid could crash services.
+   * TAPS IRC Services 0.0.1 Beta 0, wasn't made publicly available
+  - Fixed the issue on the fantasy commands when there is a space after the nick. (This fixes issue #13)
+  - Removed all final bits of the never released multichat chatclient
+  - Inserted code on the library to support Halfop functions, these where missing
+  - Created bs_g_kick module. [openglx, 28/Apr/2008]
+  - Created bs_g_voicedevoice module. [openglx, 28/Apr/2008]
+  - Changes over changes: bs_g_opme is now bs_g_opdeop, accepting paramenter like !op <target> [openglx, 23/Apr/2008]
+  - Added "owner" information at OPERSERV EXCEPTION LIST, changed langfile internally [openglx, 18/Apr/2008]
+  - Created bs_g_quote module, to use !quote and send a quote to the channel [openglx, 18/Apr/2008]
+  - Default akick expire time can now be configured on the database, this is not hardcoded 
+    anymore WHOOOOOOOOOOOO.
+  - ChanTriggers are now customizable per bs_g_* module [openglx, 16/Apr/2008]
+  - Fixing SVN $Id for all .c and .h files of this release. [openglx, 16/Apr/2008]
+  - bs_g_opme (!opme module for BotServ Fantasy) correct and working, needs more tests
+    before creating all other things. [openglx, 16/Apr/2008]
+  - First edition of the nickserv email blacklist module, which prevents certain
+    email addresses to be used on registery for example @yahoo.com
+  - Language stuff updated 
+  - Increased buffer from 512 to 1024 on ns_getsec, was to small for emails
+  - Fixed reference to language (if different) on nickserv identify
+  - Nickserv language set is not case sensive anymore
+  - Fixed a segmentation fault on the os_exception 
+  - Removed all multichat references, we don't have interest on that project now
+  - Insert an option to edit inserted quotes instead of delete and re-add
+
+******************************************************************
+********* From this point on the TAPS release will start *********
+******************************************************************
+
+  PTlink IRC Services 3.10.0 ()
+
+(See PTlink Services 3 Series ChangeLog at ChangeLog/From_PTlink3_Series/ directory).
+   

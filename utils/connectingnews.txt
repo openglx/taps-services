@@ -1,0 +1,17 @@
+English message below.
+
+Beste gebruiker, 
+
+Aangezien de Internet Service Provider Quicknet stopt met haar dienst verlening, zal ook deze server er mee ophouden. Om toch door te kunnen blijven chatten op ircworld raden wij u aan om gebruik te maken van irc.ircworld.nl. Mocht u ook nog niet het chat applet hebben omgezet naar de ircworld server dan raden wij aan dit als nog te doen, anders zal de javachat ook niet meer werken.
+
+Voor al uw vragen kunt u E-mailen naar: help@ircworld.nl
+
+Met vriendelijke groet,
+
+Ircworld Team
+
+------------------------------
+
+Dear user,
+
+The dutch Internet Service Provider will stop all of their services, there for will also this irc server. To continue chatting with all your friends on out network we advise to use the following address: irc.irworld.nl. Also if you are still using the old chatapplet via quicknet, then you mst also change this to the ircworld version, that can be found on the ircworld website.

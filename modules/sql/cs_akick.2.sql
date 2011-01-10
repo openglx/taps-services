@@ -1,0 +1,4 @@
+# $Id: cs_akick.2.sql 33 2010-05-10 02:46:01Z openglx $
+ALTER TABLE cs_akick ADD
+  CONSTRAINT FK_AK1 FOREIGN KEY (scid) REFERENCES chanserv (scid)
+    ON DELETE CASCADE ON UPDATE CASCADE;

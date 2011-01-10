@@ -1,0 +1,17 @@
+TAPS IRC Services - beta
+=====================
+Core Developers of this release:
+ Jacques Wweewer, stinger at ircworld.nl
+ Felipe, openglx at starbyte,net
+
+
+Based on PTlink IRC Services 3, by Lamego and PTlink IRC Software Team .
+More information at our web site: http://taps.ircworld.nl/
+
+Building, configuration and running
+===================================
+Read the 'INSTALL' file.
+
+Supported IRC Servers
+=======================
+PTlink IRC Server 6

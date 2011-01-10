@@ -1,0 +1,10 @@
+On botserv.modules
+  You can add bs_g_opme
+  
+NOTE:
+if you are upgrading from a previous edition of PTlink services or 
+a TAPS release prior to 0.0.1Beta0. And you want to have memoserv
+notification enabled by default, you need set notify as default memoserv
+options, using:
+  ./ircsvs conf SET memoserv.DefaultOptions notify
+  

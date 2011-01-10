@@ -1,0 +1,11 @@
+#!/usr/bin/expect -f
+# $Id: botserv.exp 33 2010-05-10 02:46:01Z openglx $
+#
+# PTlink IRC Services is (C) CopyRight PTlink IRC Software 1999-2005
+#
+# This script does an automated testing of services
+
+exp_version -exit 5.0
+log_user 0
+source login.exp
+send_user "*** Testing botserv\n"
